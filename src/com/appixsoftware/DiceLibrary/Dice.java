@@ -48,4 +48,9 @@ public class Dice implements Serializable {
         this.currentValue = currentValue;
     }
 
+    @Override
+    public String toString(){
+        return "type: "+getDiceName()+", value: "+currentValue;
+    }
+    
 }
