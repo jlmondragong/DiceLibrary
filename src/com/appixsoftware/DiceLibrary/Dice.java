@@ -1,10 +1,12 @@
 package com.appixsoftware.DiceLibrary;
 
+import java.io.Serializable;
+
 /**
  *
  * @author joseluis-mondragon
  */
-public class Dice {
+public class Dice implements Serializable {
 
     private final Integer sidesNumber;
     private Integer currentValue;
