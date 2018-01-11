@@ -16,7 +16,7 @@ public class Dice {
     
     /**
      *
-     * @return the name of the dice, for example D6, D20 and so on.
+     * @return the name of the dice, for example D4, D6, D12, D20 and so on.
      */
     public String getDiceName() {
         return "D" + sidesNumber;
