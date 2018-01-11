@@ -41,7 +41,7 @@ public class Dice {
      */
     public void setCurrentValue(Integer currentValue) {
         if(currentValue>sidesNumber||currentValue<MINIMUM_VALUE){
-            throw new RuntimeException("The current value must be between "+MINIMUM_VALUE+" and "+sidesNumber);
+            throw new RuntimeException("The current value must be between (inclusive) "+MINIMUM_VALUE+" and "+sidesNumber);
         }
         this.currentValue = currentValue;
     }
