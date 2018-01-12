@@ -6,13 +6,13 @@ package com.appixsoftware.DiceLibrary;
  */
 public enum DiceType {
 
-    D4("D4", 4),
-    D6("D6", 6),
-    D8("D8", 8),
-    D10("D10", 10),
-    D12("D12", 12),
-    D20("D20", 20),
-    D100("D100", 100);
+    D4("d4", 4),
+    D6("d6", 6),
+    D8("d8", 8),
+    D10("d10", 10),
+    D12("d12", 12),
+    D20("d20", 20),
+    D100("d100", 100);
 
     private final String name;
     private final int sides;
