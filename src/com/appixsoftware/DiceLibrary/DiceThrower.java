@@ -8,14 +8,14 @@ import java.util.Random;
  */
 public class DiceThrower {
 
-    public Dice[] getThrow(int sidesNumber, int cuantity) {
+    public Dice[] getThrow(DiceType diceType, int cuantity) {
 
         Dice[] dices = new Dice[cuantity];
         Random random = new Random();
 
         for (int i = 0; i < dices.length; i++) {
-            dices[i] = new Dice(sidesNumber);
-            int value = random.nextInt(sidesNumber) + 1;
+            dices[i] = new Dice(diceType);
+            int value = random.nextInt(diceType.getSides()) + 1;
             dices[i].setCurrentValue(value);
         }
 
