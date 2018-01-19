@@ -8,7 +8,7 @@ import java.util.Random;
  */
 public class DiceThrower {
 
-    public Dice[] getThrow(DiceType diceType, int cuantity) {
+    public static Dice[] getThrow(DiceType diceType, int cuantity) {
 
         Dice[] dices = new Dice[cuantity];
         Random random = new Random();
